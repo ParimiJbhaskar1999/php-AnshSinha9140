@@ -20,7 +20,7 @@
             <h3>Register</h3>
         </div>
         <div class="form-div">
-            <form>
+            <form method="POST", action="app.php">
               <input
                 class="field"
                 type="text"
@@ -41,7 +41,7 @@
                 placeholder="Password"               
               />
          
-              <button type="submit" class="btn" >
+              <button type="submit" name="register_btn" class="btn" >
                 Submit
               </button>
   
